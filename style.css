@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(./download.jpg);
+    background-position: 30% 25%;
+}
+
+.login {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    border-radius: 15px;
+}
+
+.login h1 {
+    color: snow;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.username,
+.password {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #5dd9e9;
+    padding: 14px 10px;
+    border-radius: 30px;
+    outline: none;
+    color: white;
+    transition: 0.3s;
+    width: 150px;
+}
+
+.username:focus,
+.password:focus {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #47dc1e;
+    padding: 14px 10px;
+    border-radius: 30px;
+    outline: none;
+    color: white;
+    width: 215px;
+}
+
+.button {
+    background-color: #22b5e2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.2s;
+    width: 100px;
+}
+
+.button:hover {
+    background-color: #47dc1e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.button {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
